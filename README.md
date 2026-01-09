@@ -1,4 +1,4 @@
-# 📊 Sorting Algorithm Visualizer
+#  Sorting Algorithm Visualizer
 
 A high-fidelity, interactive web application built with **React 19** and **Vite** to visualize the inner workings of common sorting algorithms. Master data structures through motion, sound, and real-time analytics.
 
@@ -9,21 +9,21 @@ A high-fidelity, interactive web application built with **React 19** and **Vite*
 
 ---
 
-## ✨ Features
+##  Features
 
-- **🚀 Real-time Visualization**: Watch bars dance as they find their place, with smooth animations powered by Framer Motion.
-- **🧠 Educational Insights**:
+- ** Real-time Visualization**: Watch bars dance as they find their place, with smooth animations powered by Framer Motion.
+- ** Educational Insights**:
     - **Live Code Preview**: Synchronized line-by-line highlighting showing the exact step being executed.
     - **Complexity Analysis**: Stay informed with Big O Time and Space complexity for every algorithm.
     - **Step-by-Step Control**: Pause, Rewind, and Step Forward to inspect the logic at your own pace.
-- **🔊 Audio Feedback**: Aesthetic sound effects mapped to array values, providing an auditory layer to the sorting process.
-- **📈 Live Analytics**: Track comparisons, swaps, elapsed time, and operations per second in real-time.
-- **⚖️ Algorithm Comparison**: Pit two algorithms against each other in a side-by-side race to see which one performs better.
-- **🎨 Modern UI/UX**: Sleek dark mode design with glassmorphism, responsive across all devices.
+- ** Audio Feedback**: Aesthetic sound effects mapped to array values, providing an auditory layer to the sorting process.
+- ** Live Analytics**: Track comparisons, swaps, elapsed time, and operations per second in real-time.
+- ** Algorithm Comparison**: Pit two algorithms against each other in a side-by-side race to see which one performs better.
+- ** Modern UI/UX**: Sleek dark mode design with glassmorphism, responsive across all devices.
 
 ---
 
-## 🛠️ Supported Algorithms
+##  Supported Algorithms
 
 | Algorithm | Complexity | Space | Best Use Case |
 | :--- | :---: | :---: | :--- |
@@ -36,7 +36,7 @@ A high-fidelity, interactive web application built with **React 19** and **Vite*
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -47,8 +47,8 @@ A high-fidelity, interactive web application built with **React 19** and **Vite*
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/sorting-algo-visualizer.git
-   cd sorting-algo-visualizer
+   git clone https://github.com/khorrrr/Sorting-Visualizer.git
+   cd Sorting-Visualizer
    ```
 
 2. **Install dependencies**
@@ -68,7 +68,7 @@ A high-fidelity, interactive web application built with **React 19** and **Vite*
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 src/
@@ -82,7 +82,7 @@ src/
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 - **Framework**: [React 19](https://reactjs.org/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
@@ -93,7 +93,7 @@ src/
 
 ---
 
-## ⚙️ Technical Implementation
+## Technical Implementation
 
 Unlike traditional visualizers that use `setTimeout` chains, this project leverages **JavaScript Generator Functions (`function*`)**. 
 
@@ -102,5 +102,9 @@ Unlike traditional visualizers that use `setTimeout` chains, this project levera
 - **Performance**: Decoupling the calculation from the rendering ensures smooth 60FPS animations even with larger arrays.
 
 ---
+
+## Improvement
+-  Create visualizer for Linked List, Trees and other Data Structure objects.
+-  The sorted Array will be inputed by the user rather than be auto-generated
 
 
